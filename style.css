@@ -26,6 +26,7 @@ nav {
     font-size: 18px;
     color: #7B6253;
     font-weight: 500;
+    
 }
 
 .nav img {
@@ -41,8 +42,9 @@ section {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    margin: 80px;
+    margin: 40px;
     line-height: 50px;
+
 }
 
 section h1 {
@@ -105,6 +107,19 @@ input {
     flex-direction: row;
     justify-content: space-around;
     cursor: pointer;
+}
+
+
+#image-section{
+    box-shadow: -40px -40px #E6DBCD;
+    border-radius: 0px 20px 0px 20px;
+    transition-duration: 1s;
+}
+
+#image-section:hover{
+    box-shadow: 40px 40px #E6DBCD;
+    border-radius: 0px 20px 0px 20px;
+    transition-duration: 1s;
 }
 
 main h1 {
@@ -254,41 +269,33 @@ p {
     padding-bottom: 10px;
 }
 
-#border-footer {
-    border-style: dashed;
-    border-color: #676767;
+#subline{
+    border: 0.5px dashed #3d3c3c96;
+}
+
+footer{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 50px;
+    height: 20px;
+    margin-bottom: 20px;
+}
+
+footer p {
+    font-family: "Syne", sans-serif;
+    color: #676767;
 }
 
 #footer-redes div {
-    font-family: "Syne", sans-serif;
-    width: 30px;
-    height: 30px;
     background-color: rgb(255, 255, 255);
-    padding-right: 10%;
-}
-
-#footer-redes {
-    padding-right: 20px;
 }
 
 #footer-redes {
     display: flex;
     align-items: center;
     justify-content: center;
-    flex: 1;
-}
-
-#footer-container {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 10px 20px;
-}
-
-#footer-text {
-    font-size: 1.2em;
-    font-family: "Syne", sans-serif;
-    margin-right: auto;
+    flex: 0.9;
 }
 
 .icon-redes img {
